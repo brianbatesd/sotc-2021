@@ -1,0 +1,199 @@
+body {
+  /* font-family: Helvetica, Arial, sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1rem;
+}
+
+a { 
+  color: #3573b3;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,0);
+}
+
+.navbar-nav {
+  margin-top: 2rem;
+}
+
+img.primary-logo {
+  width: 200px;
+}
+
+header.title h1 {
+  font-size: 2rem;
+  background-color: #3573b3;
+  color: #fff;
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  header.title {
+    padding-top: 0;
+    padding-bottom: 1rem;
+  }
+  header.title h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+}
+
+header.masthead {
+  position: relative;
+  background-color: #3573b3;
+  background: url("../img/soc-cover.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+header.masthead h1 {
+  font-size: 2rem;
+  background-color: #3573b3;
+  color: #fff;
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+section.masthead-cover {
+  position: relative;
+  background-color: #3573b3;
+  background: url("../img/soc-cover.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+@media (min-width: 768px) {
+  section.masthead-cover {
+    padding-top: 25rem;
+    padding-bottom: 25rem;
+  }
+}
+
+section.languages {
+  padding: 3rem 0 2rem 0;
+}
+
+.btn-primary {
+  background-color: #3573b3;
+  border-color: #3573b3;
+  margin: 0 1rem 2rem 1rem;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.brand-invert {
+  background-color: #3573b3;
+  color: #fff;
+}
+
+.brand-invert a {
+  color: #fff;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.paragraph-icon {
+  font-size: 4.5rem;
+}
+
+img.portrait {
+  width: 20rem;
+  margin-bottom: 4rem;
+}
+
+img.signature {
+  width: 20rem;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+@media (min-width: 1920px) {
+  .showcase .showcase-img {
+    min-height: 40rem;
+  }
+}
+
+.youtube-video {
+  min-height: 20rem;
+  padding: 2rem 1rem 2rem 1rem;
+}
+@media (min-width: 768px) {
+  .showcase .youtube-video {
+    min-height: 30rem;
+    padding: 5rem 0 5rem 0;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
