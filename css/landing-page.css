@@ -56,6 +56,23 @@ header.title h1 {
   }
 }
 
+header.page-title h1 {
+  font-size: 2rem;
+  background-color: #3573b3;
+  color: #fff;
+  padding-top: 1rem;
+}
+@media (min-width: 768px) {
+  header.page-title {
+    padding-top: 0;
+    padding-bottom: .75rem;
+  }
+  header.page-title h1 {
+    font-size: 5rem;
+    padding-bottom: .75rem;
+  }
+}
+
 header.masthead {
   position: relative;
   background-color: #3573b3;
@@ -98,8 +115,8 @@ section.masthead-cover {
 }
 @media (min-width: 768px) {
   section.masthead-cover {
-    padding-top: 25rem;
-    padding-bottom: 25rem;
+    padding-top: 22rem;
+    padding-bottom: 22rem;
   }
 }
 
