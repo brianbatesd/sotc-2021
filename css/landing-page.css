@@ -66,6 +66,7 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  height: 600px;
 }
 header.masthead h1 {
   font-size: 2rem;
