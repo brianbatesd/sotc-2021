@@ -73,18 +73,6 @@ header.page-title h1 {
   }
 }
 
-header.masthead {
-  position: relative;
-  background-color: #3573b3;
-  background: url("../img/soc-cover.jpg") no-repeat top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  height: 600px;
-}
 header.masthead h1 {
   font-size: 2rem;
   background-color: #3573b3;
@@ -92,10 +80,6 @@ header.masthead h1 {
   padding: 1rem;
 }
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
   header.masthead h1 {
     font-size: 5rem;
     padding-bottom: 2rem;
@@ -112,6 +96,11 @@ section.masthead-cover {
   background-size: cover;
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+@media (min-width: 1200px) {
+  section.masthead-cover {
+    height: 850px;
+  }
 }
 @media (min-width: 768px) {
   section.masthead-cover {
